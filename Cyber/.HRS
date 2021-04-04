@@ -1,0 +1,6 @@
+[bumper]
+current_version = 3.3.0
+komit = Benar
+tag = Benar
+
+[bumper: file: cupp.py]
