@@ -1,0 +1,10 @@
+bahasa : python
+  python :
+    - " 3,6 "
+  instal :
+    - pip install coverage python-coveralls
+  script :
+    - cakupan run ./test_cupp.py
+  after_success :
+    - laporan cakupan
+    - baju kerja
